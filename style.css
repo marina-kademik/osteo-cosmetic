@@ -153,6 +153,17 @@ header.app-header p {
     color: var(--primary);
 }
 
+.sidebar a.nav-section-header .tc-mini {
+    display: inline-block;
+    margin: 4px 0 0 8px;
+    vertical-align: middle;
+}
+
+.sidebar .sub-index a .tc-mini {
+    align-self: flex-start;
+    margin-left: 0;
+}
+
 .sidebar a.active {
     color: var(--primary-text) !important;
     background-color: var(--primary-light);
